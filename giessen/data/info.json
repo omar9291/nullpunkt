@@ -1,0 +1,41 @@
+{
+ "generated": "2026-11-16",
+ "origin": {
+  "e": 476950,
+  "n": 5603890
+ },
+ "bounds": {
+  "minX": -8834,
+  "maxX": 6765,
+  "minZ": -5813,
+  "maxZ": 7059
+ },
+ "buildings": {
+  "stats": {
+   "buildings": 43042,
+   "skippedUnderground": 0,
+   "skippedEmpty": 0,
+   "polys": 452328,
+   "fan": 421244,
+   "tris": 1012185,
+   "verts": 1916929,
+   "roofPolys": 87950,
+   "wallPolys": 364378,
+   "tinyPolys": 2860,
+   "maxHeight": 107.5,
+   "classes": {
+    "0": 34483,
+    "1": 3940,
+    "2": 2046,
+    "3": 2524,
+    "4": 49
+   },
+   "landmarkBuildings": 10
+  },
+  "tiles": 57,
+  "bytes": {
+   "raw": 13081080,
+   "gz": 5441489
+  }
+ }
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#07090d" />
+    <meta name="robots" content="noindex" />
+    <title>Gießen 3D</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script type="module" crossorigin src="./assets/index-DoctLxcg.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BKsaUEgI.css">
+  </head>
+  <body>
+    <canvas id="scene" aria-label="3D model of the city of Gießen"></canvas>
+    <div id="labels" aria-hidden="true"></div>
+    <div class="vignette" aria-hidden="true"></div>
+    <div class="fade" id="fade" aria-hidden="true"></div>
+
+    <header class="title">
+      <p class="eyebrow">Hesse · Germany · 50.58° N 8.68° E</p>
+      <h1>Gießen</h1>
+      <p class="sub" id="stat">Every building, from official survey data.</p>
+    </header>
+
+    <a class="home" id="home" href="../" hidden>
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="3.4" /></svg>
+      <span>Nullpunkt</span>
+    </a>
+
+    <nav class="views" id="views" aria-label="Viewpoints"></nav>
+
+    <footer class="credits">
+      Buildings and aerial imagery: <a href="https://hvbg.hessen.de/landesvermessung/geotopographie" target="_blank" rel="noopener">HVBG – Hessische Verwaltung für Bodenmanagement und Geoinformation</a> (3D-Gebäudemodell LoD2, DOP20; open data, modified).
+      Map: © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors (ODbL).
+    </footer>
+
+    <div class="loader" id="loader">
+      <div class="loader-inner">
+        <p class="loader-name">Gießen</p>
+        <div class="bar"><i id="bar"></i></div>
+        <p class="loader-text" id="loader-text">Loading the city…</p>
+      </div>
+    </div>
+    <div class="fps" id="fps" hidden></div>
+  </body>
+</html>
